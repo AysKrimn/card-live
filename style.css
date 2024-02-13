@@ -1,0 +1,120 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+
+    margin: 1rem;
+}
+
+.card-container {
+
+    width: 25%;
+    border: 1px solid gray;
+    font-family: system-ui;
+}
+
+
+.card-container img {
+
+    opacity: 0.8;
+    cursor: pointer;
+    /* zamanlayıcı ekle */
+    transition: 0.7s;
+}
+
+.card-container img:hover {
+
+    opacity: 1;
+}
+
+.card-title {
+
+    text-align: center;
+}
+
+.card-footer {
+
+    margin-top: 8px;
+    padding: 10px;
+}
+
+.card-social {
+
+    margin-top: 2rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.card-social i {
+
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+
+.card-social i:hover {
+
+    background-color: #574949;
+    color: white !important;
+}
+
+
+
+.underline {
+
+    border-bottom: 1px solid gray;
+}
+
+
+.card-bottom-container {
+
+    padding: 20px;
+}
+
+
+.post-link {
+
+    padding: 11px;
+    background: #494949;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.post-link a {
+
+    text-decoration: none;
+    margin: 8px;
+    display: inline-block;
+    color: white;
+    position: relative;
+    
+}
+
+.post-link a::after {
+
+    content: "";
+    position: absolute;
+    background-color: #75d2fe;
+    height: 3px;
+    width: 0;
+    bottom: -6px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.post-link a:hover::after {
+
+    width: 100%;
+}
+
+
+img {
+
+    width: 100%;
+}
